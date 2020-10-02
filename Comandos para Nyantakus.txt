@@ -1,0 +1,39 @@
+﻿
+Comandos Sociales y Económicos
+    daily* leaderboard* marry* pop* profile* rank* work*
+
+Comandos Útiles:
+    avatar calc define* question* serverinfo servericon translate* userinfo weather*
+
+Comandos de Búsqueda:
+    anime* danbooru* gif* images* manga* pokedex sankaku* saucenao* youtube*
+
+Comandos de Interacción:
+    baka bite cheeks claps cook cookie cuddle dance feed
+    gaming glare handholding heal hi highfive hug kickbutts
+    kill kiss laugh lick pat poke punch scared shoot slap
+    sleep spank splash spray stare tickle tsundere
+
+Comandos de Reacción:
+    angry banghead* blush* boom* bored* confused* cry dab*
+    deredere* discouraged* disgust* drunk* facepalm* fail* fbi*
+    happy jjpose* lewd* like* nope pout* run* sad* scream*
+    shrug* sing* sip* sleep* smug* spy* teehee* think* vomit* wag* yandere*
+
+Comandos Divertidos:
+    8ball choose coinflip horoscope* fight roll rate rps say
+
+Comandos NSFW:
+    hentai*
+
+Comandos de Moderación
+    censure* ban* kick* lockdown* mute* purge* softban* tempmute* uncensure* unlockdown* unmute*
+
+Comandos de Configuración
+    config* disable* enable* setautorole* setleavechan* setleavemsg* setmuterole* setprefix* setwelcomechan* setwelcomemsg*
+
+Comandos del bot:
+    about* botinvite help ping*
+
+
+Los que tienen '*' son Comandos no hechos.

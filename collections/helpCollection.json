@@ -1,0 +1,41 @@
+{
+    "title": "Comandos de Nyantakus",
+    "description": "¡Hello Isekai!, mi nombre es, **Nyantakus**, aquí tienes mi **lista de comandos** que tengo por ahora, pronto abrán mas comandos así que paciencia por favor... UwU",
+    "thumbnail":{
+        "url": ""
+    },
+    "image":{ 
+        "url": ""
+    },
+    "footer": "Usarme con amor y cariño, [entra el servidor de soporte]",
+    "fields":[
+        {
+            "name": ":desktop: Comandos Útiles",
+            "value": "`avatar` `calc` `servericon` `serverinfo`"
+        },
+        {
+            "name":  " :mag: Comandos de búsqueda",
+            "value": "`pokedex`"
+        },
+        {
+            "name": ":hugging: Comandos de Interacción",
+            "value": "`baka` `bite` `cheeks` `claps` `cook` `cookie` `cuddle` `dance` `feed` `gaming` `glare` `handholding/hh` `heal` `hi` `highfive/hf` `hug` `kickbutts/kb` `kill` `kiss` `laugh` `lick` `pat` `poke` `punch` `scared` `shoot` `slap` `spank` `splash` `spray` `stare` `tickle` `tsundere`"},
+        {
+            "name": ":rage: Comandos de Reacción",
+            "value": "`angry` `cry` `happy` `nope`"
+        },
+        {
+            "name": ":game_die: Comandos Divertidos",
+            "value": "`8ball` `choose` `coinflip/cf` `fight` `rate` `roll` `rps`  `say`"
+        },
+        {
+            "name": ":tools: Comandos de Configuración",
+            "value": "null"
+        },
+        {
+            "name": ":robot: Comandos del Bot",
+            "value": "`help` `invite` `ping`"
+        }
+    ],
+    "color":"#ff00ff"
+}

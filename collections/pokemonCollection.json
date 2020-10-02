@@ -1,0 +1,47 @@
+{
+    "types":{
+        "steel":":nut_and_bolt: **Acero**",
+        "water":":droplet: **Agua**",
+        "bug":":beetle: **Bicho**",
+        "dragon":":dragon_face: **Dragón**",
+        "electric":"**:zap: Eléctrico**",
+        "ghost":":ghost: **Fantasma**",
+        "fire":":fire: **Fuego**",
+        "fairy":":woman_fairy: **Hada**",
+        "ice":":ice_cube: **Hielo**",
+        "fighting":":boxing_glove: **Luchador**",
+        "normal":":regional_indicator_n: **Normal**",
+        "grass":":herb: **Planta**",
+        "psychic":":crystal_ball: **Psíquico**",
+        "rock":":gem: **Roca**",
+        "dark":":imp: **Siniestro**",
+        "poison":":skull_crossbones: **Venenoso**",
+        "flying":":dove: **Volador**",
+        "ground":":mushroom: **Tierra**"
+    },
+    "stats":{
+        "hp": ":heart: **HP**",
+        "attack": ":dagger: **Atk**",
+        "defense": ":shield: **Def**",
+        "special-attack": ":crossed_swords: **SpA**",
+        "special-defense": ":beginner: **SpD**",
+        "speed": ":dash: **Spe**"
+    },
+    "eggGroups": {
+        "water1": ":droplet: **Agua1**",
+        "water2": ":whale: **Agua2**",
+        "water3": ":squid: **Agua3**",
+        "bug":":beetle: **Bicho**",
+        "dragon": ":dragon: **Dragón**",
+        "fairy":":woman_fairy: **Hada**",
+        "humanshape": ":bust_in_silhouette: **Humanoide**",
+        "indeterminate": ":question: **Amorfo**",
+        "mineral": ":gem: **Mineral**",
+        "monster":":t_rex: **Monstruo**",
+        "plant": ":herb: **Planta**",
+        "ground":":rabbit: **Tierra**",
+        "flying":":dove: **Volador**",
+        "ditto": ":sparkles: **Ditto**",
+        "no-eggs": ":x: **Pokémon no disponible para crianza**"
+    }
+}
