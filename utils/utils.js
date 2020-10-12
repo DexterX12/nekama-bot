@@ -35,6 +35,26 @@ function getUserFromID(id, client, callback) {
         return e;
     }
 }
+async function interaction (msg, userMention, gif, phrases, phrasesDuo, needsMention) {
+        userMentioned = userMention;
+        if (needsMention) {
+            const phraseToUse = getRanValueArray(phrases)
+            if(userMentioned){
+                actionReactionBase(msg, userMentioned, phraseToUse, gif);
+                return;
+            }
+            sendErrorMessage(msg, `¡Así no es!, **tienes que mencionar a alguien**. <:facepalm:722547858594725889>`);
+        } else {
+            let phraseToUse;
+            if (userMentioned) {
+                phraseToUse = getRanValueArray(phrasesDuo);
+                actionReactionBase(msg, userMentioned, phraseToUse, gif);
+            } else {
+                phraseToUse = getRanValueArray(phrases);
+                actionReactionBase(msg, userMentioned, phraseToUse, gif, true);
+            }
+        }
+    }
 
 async function actionReactionBase (msg, userMentioned, description, gif, isAlone=false) {
     const messageEmbed = new Discord.MessageEmbed();
@@ -55,14 +75,31 @@ async function actionReactionBase (msg, userMentioned, description, gif, isAlone
     await msg.channel.send(messageEmbed);
 }
 
-async function sendEmbed (msg, embedObject, deletemsg=true) {
-    await msg.channel.send({embed: embedObject});
-    if (deletemsg)
-        await msg.delete();
+async function sendEmbed (msg, embedObject, deletemsg=true, isChannel=false, needText=false, text="") {
+    let returns;
+    return new Promise( async (resolve, reject) => {
+        if (isChannel) {
+            if (needText)
+                msg.send(text, {embed: embedObject});
+            else
+                msg.send({embed: embedObject});
+        } else {
+            option = msg.channel;
+            if (needText)
+                returns = await msg.channel.send(text, {embed: embedObject});
+            else
+                returns = await msg.channel.send({embed: embedObject});
+        }
+
+        if (deletemsg)
+            msg.delete();
+
+        resolve(returns);
+    })
 }
 
-function getRanValueArray (gifArray) {
-    return gifArray[Math.floor(Math.random() * gifArray.length)];
+function getRanValueArray (array) {
+    return array[Math.floor(Math.random() * array.length)];
 }
 
 function capitalize (text) {
@@ -82,6 +119,7 @@ async function sendErrorMessage (msg, message) {
 module.exports = {
     getRanValueArray,
     actionReactionBase,
+    interaction,
     getIdFromMention,
     getUserFromID,
     sendErrorMessage,

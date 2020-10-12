@@ -4,15 +4,16 @@ OWNERS: Nekama4chan#5381 y DexterX#6353
 © 2020 Hello_Isekai! todos los derechos reservados.
 */
 
-const Handlers = require('./command_handler.js'),
+const Discord = require('discord.js'),
+      Handlers = require('./command_handler.js'),
       utils = require('./utils/utils.js'),
-      Discord = require('discord.js'),
+      config = require('./config.json'),
+
       client = new Discord.Client(),
-      token = 'NzUzNjQwNTQwNDg2MTA3MzA2.X1pIcg.btFkwov7rQRCvZrorSMOorNqdtY',
-      testToken = 'NzI0ODE1NzI1NzgwNDAyMjM2.XvFsJg.hsVQ5phc1gRitrfCFkhtGxJ3YYE',
-      prefix = 'n!',
+      token = config.testToken,
+      prefix = config.prefix,
       cooldown = new Set(),
-      cdseconds = 5;
+      cdseconds = config.cooldown;
 
 
 client.on('ready', () => {
@@ -46,7 +47,7 @@ client.on('message', async msg => {
       if(!cooldown.has(msg.author.id)){
         cooldown.add(msg.author.id);
       } else {
-        await msg.reply('¡por favor, relájate un momento!, **Espera 5 segundos por comando por favor**. <:chancla:722547876244357200>');
+        await utils.sendErrorMessage(msg, '¡por favor, relájate un momento!, **Espera 5 segundos por comando por favor**. <:chancla:722547876244357200>');
         return;
       }
 
@@ -60,10 +61,7 @@ client.on('message', async msg => {
       command = msgcontent.split(' ')[0],
       noCommandMsgContent = msg.content.slice(prefix.length + (command.length + 1)),   
       commandHandler = new Handlers(msg, client, userMention, noCommandMsgContent);
-      if(command === "ping"){
-        msg.channel.send(`¡Pong!\n:ping_pong: ${Date.now() - msg.createdTimestamp}ms`);
-        return;
-      }
+
       commandHandler.handleCommand(command);
       
       
@@ -74,15 +72,14 @@ client.on('message', async msg => {
 });
 
 async function updateDescription () {
-  setInterval( async () => {
-    let membercount = 0;
-    let servercount = 0;
-    client.guilds.cache.forEach( guild => {
-      membercount += guild.memberCount;
-      servercount++;
-    });
-    client.user.setActivity(`¡${membercount} personitas y ${servercount} servidores!`, {type:'WATCHING'});
-  }, 300000);
+    setInterval(() => {
+      let membercount = client.users.cache.filter(u => !u.bot).size;
+      let servercount = client.guilds.cache.size;
+    
+      client.user.setActivity(`¡${membercount} personitas y ${servercount} servidores!`, {type:'WATCHING'});
+
+    }, 300000)
+  
 }
 
 client.login(token);
