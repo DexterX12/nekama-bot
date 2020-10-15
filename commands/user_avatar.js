@@ -55,12 +55,12 @@ class UserAvatar {
 }
 
 module.exports = {
-    aliases: ['servericon', 'sei'],
-    description: 'Devuelve el avatar de un usuario',
+    aliases: ['avatar'],
+    description: 'Mostraré tu avatar o el de tu amigo. \n\n_Ojala pudiera hacer un match contigo..._',
     category: ':desktop: Comandos Útiles',
-    args : '[ID o mención (Opcional)]',
+    args : '<Mención de usuario/ID>*',
     execute(msg, client, args, command="", mention) {
         let instance = new UserAvatar(msg, mention, args, client)
         instance.sendUserAvatar(msg);
     },
-};;
+};

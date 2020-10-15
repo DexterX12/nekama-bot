@@ -67,10 +67,10 @@ class SafeBooruSearch {
 module.exports = {
     aliases: ['safeboorurank', 'sbr'],
     description: 'Retorna un post de Danbooru con SafeSearch.',
-    category: ':desktop: Comandos Útiles',
+    category: ':mag: Comandos de búsqueda',
     args : '[Índice]**',
     execute(msg, client, args) {
         let instance = new SafeBooruSearch(msg, client, args)
         instance.search();
     },
-};;
+};

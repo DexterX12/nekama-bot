@@ -73,10 +73,10 @@ class SafeBooruTag {
 module.exports = {
     aliases: ['safeboorutag', 'sbt'],
     description: 'Retorna un post de danbooru con SafeSearch a partir de un tag.',
-    category: ':desktop: Comandos Útiles',
+    category: ':mag: Comandos de búsqueda',
     args : '[Tag]*',
     execute(msg, client, args, command="") {
         let instance = new SafeBooruTag(msg, client, args)
         instance.searchTag();
     },
-};;
+};

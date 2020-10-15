@@ -306,11 +306,11 @@ class Pokemon {
 
 module.exports = {
     aliases: ['pokedex', 'pkd'],
-    description: 'Busca los datos de un Pokémon en la PokéDex',
-    category: ':desktop: Comandos Útiles',
-    args : '[ID o Nombre de Pokémon]*',
+    description: 'Busca los datos de un Pokémon en la PokéDex. \n\n_¡Mi Pokemon favorito es Eevee!_',
+    category: ':mag: Comandos de búsqueda',
+    args : '<ID o Nombre de Pokémon>**',
     execute(msg, client, args, command="") {
         let instance = new Pokemon(msg, args);
         instance.fetchPokemon();
     },
-};;
+};

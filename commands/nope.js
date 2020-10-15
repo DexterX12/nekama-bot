@@ -4,7 +4,7 @@ const Phrases = require('../collections/phrasesCollection.json');
 
 module.exports = {
     aliases: ['nope'],
-    description: 'Comando de reacción.',
+    description: 'Dile no a todos, niégalo todo. \n\n_¡NO!_',
     category: ':rage: Comandos de Reacción',
     args : false,
     execute(msg, client, args, command="", mention) {

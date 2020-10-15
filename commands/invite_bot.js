@@ -1,5 +1,5 @@
 const Utils = require('../utils/utils.js');
-const inviteURL = "https://discord.com/api/oauth2/authorize?client_id=753640540486107306&permissions=519232&scope=bot";
+const inviteURL = "https://discord.com/api/oauth2/authorize?client_id=753640540486107306&permissions=537259072&scope=bot";
 
 class BotInvite {
 
@@ -27,11 +27,11 @@ class BotInvite {
 
 module.exports = {
     aliases: ['invite'],
-    description: 'Retorna la invitación del bot.',
+    description: 'Te da un enlace de invitación para yo poder entrar a tu servidor. \n\n_¡Anda, usarlo y recomendarme a tus amigos!_',
     category: ':robot: Comandos del Bot',
     args : false,
     execute(msg, client, args, command="") {
         let instance = new BotInvite(msg, client);
         instance.sendBotInvite();
     },
-};;
+};

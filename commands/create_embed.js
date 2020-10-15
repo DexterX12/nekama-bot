@@ -50,11 +50,11 @@ class CreateEmbed {
 
 module.exports = {
     aliases: ['createembed', 'ce'],
-    description: 'Crear un embed.',
+    description: '_Crea un embed personalizado_',
     category: ':desktop: Comandos Útiles',
-    args : '[Título]* [Descripción]* [URL de imagen]* [URL de miniatura]* [Pie de Embed]* [Color]* [Campos(JSON)]*',
+    args : '<Título>* | <Descripción>* | <URL de imagen>* | <URL de miniatura>* | <Pie de Embed>* | <Color Hexadecimal>* | <Campos(JSON)>*',
     execute(msg, client, args, command="") {
         let instance = new CreateEmbed(msg, args)
         instance.createEmbed();
     },
-};;
+};

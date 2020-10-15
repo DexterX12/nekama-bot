@@ -21,10 +21,10 @@ async function say (msg, message) {
 
 module.exports = {
     aliases: ['say'],
-    description: 'Haz que el bot diga algo.',
+    description: 'Hazme decir algo. \n\n_Con este comando, puedes engañar a otros y hacerles pensar que tengo vida propia._',
     category: ':game_die: Comandos Divertidos',
-    args : '[Mensaje]',
+    args : '<Mensaje>**',
     execute(msg, client, args) {
         say(msg, args);
     },
-};;
+};

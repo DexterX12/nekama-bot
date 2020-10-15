@@ -78,11 +78,11 @@ class DanbooruTag {
 
 module.exports = {
     aliases: ['danboorutag', 'dbt'],
-    description: 'Retorna un post de danbooru a partir de un tag.',
+    description: 'Busca publicaciones de Danbooru con tags con este sencillo comando. \n\n_¡Recuerda que es un comando NSFW, así que te sirve para buscar "lewds de tu waifu...!_',
     category: ':underage: NSFW',
-    args : '[Tag]*',
+    args : '<Tag>**',
     execute(msg, client, args, command="") {
         let instance = new DanbooruTag(msg, client, args)
         instance.searchTag();
     },
-};;
+};

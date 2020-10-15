@@ -23,11 +23,11 @@ function sendServerIcon (msg) {
 }
 
 module.exports = {
-    aliases: ['servericon', 'sei'],
-    description: 'Devuelve el ícono del servidor',
+    aliases: ['servericon', 'seic'],
+    description: 'Muestro el ícono de tu servidor. \n\n_Mostrad que tan bello es el ícono de tu server, yo le doy 10/10_',
     category: ':desktop: Comandos Útiles',
     args : false,
     execute(msg, client, args) {
         sendServerIcon(msg);
     },
-};;
+};

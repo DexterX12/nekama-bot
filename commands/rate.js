@@ -39,10 +39,10 @@ async function rate (msg, thingToRate) {
 
 module.exports = {
     aliases: ['rate'],
-    description: 'El bot valora alguna cosa',
+    description: 'Daré mi valoración a lo que me pongas. \n\n_¡Yo siempre valgo mucho, independientemente de los resultados._',
     category: ':game_die: Comandos Divertidos',
-    args : '[Elemento a valorar]*',
+    args : '<Elemento a valorar>**',
     execute(msg, client, args) {
         rate(msg, args);
     },
-};;
+};

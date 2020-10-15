@@ -71,9 +71,9 @@ module.exports = {
     aliases: ['danboorurank', 'dbr'],
     description: 'Retorna un post de Danbooru.',
     category: ':underage: NSFW',
-    args : '[Índice]**',
+    args : '<Índice>**',
     execute(msg, client, args, command="") {
         let instance = new DanbooruSearch(msg, client, args);
         instance.createEmbed();
     },
-};;
+};

@@ -134,10 +134,10 @@ class ImageSearch {
 }
 
 module.exports = {
-    aliases: ['image', 'img', 'image2', 'img2'],
-    description: 'Busca imágenes en la web',
-    category: ':desktop: Comandos Útiles',
-    args : '[Elemento a buscar]*',
+    aliases: ['image', 'image2', 'img', 'img2'],
+    description: 'Busca imágenes de la web con este sencillo comando. \n\n_¡Busca imágenes kawaii y moe!_',
+    category: ':mag: Comandos de búsqueda',
+    args : '<Elemento a buscar>**',
     execute(msg, client, args, command="") {
         let instance = new ImageSearch(msg, client, args);
         if (command === "img2" || command === "image2") {
@@ -146,4 +146,4 @@ module.exports = {
         }
         instance.searchImage();
     },
-};;
+};

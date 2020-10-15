@@ -80,10 +80,10 @@ async function rpsGame (msg, client, message) {
 
 module.exports = {
     aliases: ['rps'],
-    description: 'Juega contra el bot el juego de piedra, papel o tijeras.',
+    description: 'Juega contra mi a "Piedra, Papel o Tijera". \n\n_¡Soy profesional en este juego, así que no me subestimes!_',
     category: ':game_die: Comandos Divertidos',
-    args : '[Opción (piedra, papel, tijera)]*',
+    args : '<Opción (piedra, papel, tijera)>**',
     execute(msg, client, args) {
         rpsGame(msg, client, args);
     },
-};;
+};

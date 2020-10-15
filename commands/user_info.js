@@ -203,12 +203,12 @@ class UserInfo {
 }
 
 module.exports = {
-    aliases: ['servericon', 'sei'],
-    description: 'Devuelve información de un usuario',
+    aliases: ['userinfo', 'usif'],
+    description: 'Muestro información detallada de un usuario. \n\n_No, no puedo decir en donde vive el usuario y su número de WhatsApp._',
     category: ':desktop: Comandos Útiles',
-    args : '[ID o mención (Opcional)]',
+    args : '<Mención de usuario/ID>*',
     execute(msg, client, args, command="", mention) {
         let instance = new UserInfo(msg, client, mention, args)
         instance.getUserInfo();
     },
-};;
+};

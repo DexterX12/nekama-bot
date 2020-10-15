@@ -26,9 +26,9 @@ async function eightBall (msg, message) {
 
 module.exports = {
     aliases: ['8ball'],
-    description: 'El bot responde a alguna pregunta',
+    description: 'Hazme una pregunta y yo la responderé de acuerdo a lo que sé. \n\n_¡Hey pero ojo, no me preguntes cosas obsenas, absurdas o mis tallas!_',
     category: ':game_die: Comandos Divertidos',
-    args : '[Pregunta]*',
+    args : '<Pregunta>**',
     execute(msg, client, args) {
         eightBall(msg, args);
     },

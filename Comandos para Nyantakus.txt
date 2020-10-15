@@ -6,7 +6,7 @@ Comandos Útiles:
     avatar calc define* question* serverinfo servericon translate* userinfo weather*
 
 Comandos de Búsqueda:
-    anime* danbooru* gif* images* manga* pokedex sankaku* saucenao* youtube*
+    anime* gif* images manga* pokedex safebooru saucenao* search youtube
 
 Comandos de Interacción:
     baka bite cheeks claps cook cookie cuddle dance feed
@@ -21,10 +21,10 @@ Comandos de Reacción:
     shrug* sing* sip* sleep* smug* spy* teehee* think* vomit* wag* yandere*
 
 Comandos Divertidos:
-    8ball choose coinflip horoscope* fight roll rate rps say
+    8ball choose coinflip horoscope* fight^ roll rate rps say
 
 Comandos NSFW:
-    hentai*
+    hentai* danbooru gelbooru* sankaku* rule34*
 
 Comandos de Moderación
     censure* ban* kick* lockdown* mute* purge* softban* tempmute* uncensure* unlockdown* unmute*
@@ -33,7 +33,8 @@ Comandos de Configuración
     config* disable* enable* setautorole* setleavechan* setleavemsg* setmuterole* setprefix* setwelcomechan* setwelcomemsg*
 
 Comandos del bot:
-    about* botinvite help ping*
+    `about`* `invite` `help` `ping`
 
 
 Los que tienen '*' son Comandos no hechos.
+Los que tienen '^' son Comandos deshabilitados temporalmente.

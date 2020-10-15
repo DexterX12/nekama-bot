@@ -6,7 +6,7 @@ module.exports = {
     aliases: ['stare'],
     description: 'Comando de reacción.',
     category: ':hugging: Comandos de Interacción',
-    args : '[Mención]',
+    args : '<Mención de usuario>**',
     execute(msg, client, args, command="", mention) {
         let gifToUse = utils.getRanValueArray(Gifs.interactions[`${command}Gifs`]);
         let PhraseToUse = Phrases.interactions[command][`${command}Phrases`];

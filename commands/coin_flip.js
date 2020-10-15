@@ -21,10 +21,10 @@ async function coinFlip (msg) {
 
 module.exports = {
     aliases: ['coinFlip', 'cf'],
-    description: 'Hace el bot lanzar una moneda con resultado aleatorio.',
+    description: 'Lanzaré una moneda para un resultado aleatorio entre cara o cruz. \n\n_¡En este juego no hay trampas, te lo aseguro!_',
     category: ':game_die: Comandos Divertidos',
     args : false,
     execute(msg, client, args, command="") {
         coinFlip(msg);
     },
-};;
+};

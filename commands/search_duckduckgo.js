@@ -50,11 +50,11 @@ class InstantSearch {
 
 module.exports = {
     aliases: ['search'],
-    description: 'Busca información en la web',
-    category: ':desktop: Comandos Útiles',
-    args : '[Elemento a buscar]¨*',
+    description: 'Busca información rápida e instantania de la web con este comando.',
+    category: ':mag: Comandos de búsqueda',
+    args : '<Elemento a buscar>**',
     execute(msg, client, args, command="") {
         let instance = new InstantSearch(msg, client, args);
         instance.getSearch();
     },
-};;
+};

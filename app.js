@@ -1,6 +1,6 @@
-/* NYANTAKUS v1.2.2
+/* NYANTAKUS v2.0.0
 PROYECTO DE BOT DE DISCORD
-OWNERS: Nekama4chan#5381 y DexterX#6353
+OWNERS: Nekama4chan#5381 (ID: 634104804813045762) y DexterX#6353 (ID: 301427223829938196)
 © 2020 Hello_Isekai! todos los derechos reservados.
 */
 
@@ -31,7 +31,7 @@ client.on('message', async msg => {
       if(!msg.guild){
         return;
       }
-      await msg.reply('¡Ese es mi prefix!, usa **`n!help`** para más información. <:wink:722547864118624278>');
+      await msg.reply(`¡Ese es mi prefix!, usa **${prefix}help** para más información. <:wink:722547864118624278>`);
       return;
   }
 
@@ -76,7 +76,7 @@ async function updateDescription () {
       let membercount = client.users.cache.filter(u => !u.bot).size;
       let servercount = client.guilds.cache.size;
     
-      client.user.setActivity(`¡${membercount} personitas y ${servercount} servidores!`, {type:'WATCHING'});
+      client.user.setActivity(`${membercount} personitas y ${servercount} servidores`, {type:'WATCHING'});
 
     }, 300000)
   

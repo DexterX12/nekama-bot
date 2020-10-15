@@ -152,12 +152,12 @@ class ServerInfo {
 
 
 module.exports = {
-    aliases: ['serverinfo', 'sein'],
-    description: 'Devuelve información del servidor',
+    aliases: ['serverinfo', 'seif'],
+    description: 'Muestra información detallada de tu servidor. \n\n_Tranquilo, no voy a revelar cuantas lolis tienes secuestradas en ese canal secreto llamado "#mis-lolis"..._',
     category: ':desktop: Comandos Útiles',
     args : false,
     execute(msg, client, args) {
         let instance = new ServerInfo(msg)
         instance.sendServerInfo();
     },
-};;
+};

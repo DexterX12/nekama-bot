@@ -186,9 +186,9 @@ module.exports = {
     aliases: ['danboorupool', 'dbp'],
     description: 'Retorna un pool de Danbooru a partir de un tag.',
     category: ':underage: NSFW',
-    args : '[Tag]*',
+    args : '<Tag>**',
     execute(msg, client, args, command="") {
         let instance = new DanbooruPool(msg, client, args);
         instance.searchPool();
     },
-};;
+};

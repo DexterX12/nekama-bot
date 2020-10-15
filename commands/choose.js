@@ -45,10 +45,10 @@ async function choose (msg, message) {
 
 module.exports = {
     aliases: ['choose'],
-    description: 'Hace el bot elegir entre varios elementos.',
+    description: 'Hazme elegir entre dos o más opciones. \n\n_¡Sé elegir bien, así que confía en mi!_',
     category: ':game_die: Comandos Divertidos',
-    args : '[opcion 1; opcion n...]*',
+    args : '<Opcion 1; Opcion 2...>**',
     execute(msg, client, args, command="") {
         choose(msg, args);
     },
-};;
+};

@@ -4,9 +4,9 @@ const Phrases = require('../collections/phrasesCollection.json');
 
 module.exports = {
     aliases: ['spray'],
-    description: 'Comando de reacción.',
+    description: 'Elimina la peste usando el rociador. \n\n_¡No dejes que el virus se multiplique, rocía rocía!_',
     category: ':hugging: Comandos de Interacción',
-    args : '[Mención]',
+    args : '<Mención de usuario>*',
     execute(msg, client, args, command="", mention) {
         let gifToUse = utils.getRanValueArray(Gifs.interactions[`${command}Gifs`]);
         let PhraseToUse = Phrases.interactions[command][`${command}Phrases`];

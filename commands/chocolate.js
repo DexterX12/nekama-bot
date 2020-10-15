@@ -3,8 +3,8 @@ const Gifs = require('../collections/gifCollection.json');
 const Phrases = require('../collections/phrasesCollection.json'); 
 
 module.exports = {
-    aliases: ['highfive', 'hf'],
-    description: 'Choca esos 5 con tu amigo o conmigo. \n\n_¡Dame esos 5, yeii!_',
+    aliases: ['chocolate', 'choco'],
+    description: 'Reparte chocolates para todos o regala uno a tu amigo. \n\n_¡A mi me encantan mucho los chocolates, dame chocolate please!_',
     category: ':hugging: Comandos de Interacción',
     args : '<Mención de usuario>*',
     execute(msg, client, args, command="", mention) {

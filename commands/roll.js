@@ -21,7 +21,7 @@ async function roll (msg) {
 
 module.exports = {
     aliases: ['roll'],
-    description: 'El bot lanza un dado con resultado aleatorio.',
+    description: 'Lanzaré un dado para un resultado aleatorio. \n\n_Tranquilo, el dado no está trucado..._',
     category: ':game_die: Comandos Divertidos',
     args : false,
     execute(msg, client, args) {

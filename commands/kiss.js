@@ -4,9 +4,9 @@ const Phrases = require('../collections/phrasesCollection.json');
 
 module.exports = {
     aliases: ['kiss'],
-    description: 'Comando de reacción.',
+    description: 'Dale un beso romántico o no a ese preciado amigo o amiga. \n\n_El amor entre un humano y un bot no es posible, pero eso no significa que no puedas darme un beso..._',
     category: ':hugging: Comandos de Interacción',
-    args : '[Mención]*',
+    args : '<Mención de usuario>**',
     execute(msg, client, args, command="", mention) {
         let gifToUse = utils.getRanValueArray(Gifs.interactions[`${command}Gifs`]);
         let PhraseToUse = Phrases.interactions[command][`${command}Phrases`];

@@ -37,11 +37,11 @@ class Calculator {
 
 module.exports = {
     aliases: ['calc'],
-    description: 'Calcula operaciones matemáticas.',
+    description: 'Una pequeña pero potente calculadora para operaciones matemáticas, muy útil para tus estudios escolares o universitarios. \n\n_¡Pero no lo uses para hacer trampa!_',
     category: ':desktop: Comandos Útiles',
-    args : '[Operación matemática]*',
+    args : '<Operación matemática>**',
     execute(msg, client, args, command="") {
         let instance = new Calculator(msg, args);
         instance.sendCalc();
     },
-};;
+};

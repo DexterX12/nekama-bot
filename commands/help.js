@@ -13,16 +13,16 @@ class Help {
 		    	name:"Comandos de Nyantakus",
 		    	icon_url: client.user.displayAvatarURL()
 		    },
-		    "description": "¡Hello Isekai!, mi nombre es: **Nyantakus**. Aquí tienes mi **lista de comandos**",
+		    "description": `¡Hello Isekai!, mi nombre es, **Nyantakus**, aquí tienes mi **lista de comandos**. \nSi necesitas ayuda detallada de algún comando entonces usa **${config.prefix}help <comando>**.`,
 		    "image":{ 
 		        "url": ""
 		    },
-		    "footer": {
-		    	"text": "Usarme con amor y cariño, [entra el servidor de soporte]"
+		    "footer":{
+		    	"text": "Usarme con amor y cariño."
 		    },
 		    "fields":[
 		    ],
-		    "color":"#ff00ff"
+			"color":"#ff00ff"
 		}
 	}
 
@@ -95,13 +95,13 @@ class Help {
 
 					if (!command.args){
 						this.helpEmbed.fields.push({
-							name: "Uso:",
+							name: "Ejemplo de uso:",
 							value: '`' + config.prefix + '' + command.aliases[0] + '`',
 							inline: true
 						})
 					} else {
 						this.helpEmbed.fields.push({
-							name: "Uso:",
+							name: "Ejemplo de uso:",
 							value: '`' + config.prefix + '' + command.aliases[0] + ' ' + command.args + '`',
 							inline: true
 						})	
@@ -113,7 +113,7 @@ class Help {
 						inline: true
 					})
 
-					this.helpEmbed.footer.text = "(**) = Argumento obligatorio. (*) = Argumento opcional. | Estos signos son meramente explicativos, no los incluyas al ejecutar algún comando."
+					this.helpEmbed.footer.text = "Nota: (**) = Argumento obligatorio. (*) = Argumento opcional. \n¡Estos signos son meramente explicativos, no los incluyas al ejecutar algún comando!"
 
 					wasFound = true;
 					break;
@@ -122,7 +122,7 @@ class Help {
 		}
 
 		if (!wasFound) {
-			utils.sendErrorMessage(this.msg, 'Tal parece que ese comando no existe...');
+			utils.sendErrorMessage(this.msg, 'Tal parece que ese comando no existe... <:pensando:722547844770299909>');
 			return;
 		}
 

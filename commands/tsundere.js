@@ -4,9 +4,9 @@ const Phrases = require('../collections/phrasesCollection.json');
 
 module.exports = {
     aliases: ['tsundere'],
-    description: 'Comando de reacción.',
+    description: 'Muestra tu lado tsundere a todos. \n\n_¡No hay nadie más tsundere que yo, jum!_',
     category: ':hugging: Comandos de Interacción',
-    args : '[Mención]',
+    args : '<Mención de usuario>*',
     execute(msg, client, args, command="", mention) {
         let gifToUse = utils.getRanValueArray(Gifs.interactions[`${command}Gifs`]);
         let PhraseToUse = Phrases.interactions[command][`${command}Phrases`];

@@ -4,9 +4,9 @@ const Phrases = require('../collections/phrasesCollection.json');
 
 module.exports = {
     aliases: ['dance'],
-    description: 'Comando de reacción.',
+    description: 'Baila y mueve las caderas conmigo o con tu amigo \n\n_¡A veces me da pena bailar, pero si me invitas acepto!_',
     category: ':hugging: Comandos de Interacción',
-    args : '[Mención]**',
+    args : '<Mención de usuario>*',
     execute(msg, client, args, command="", mention) {
         let gifToUse = utils.getRanValueArray(Gifs.interactions[`${command}Gifs`]);
         let PhraseToUse = Phrases.interactions[command][`${command}Phrases`];

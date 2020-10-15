@@ -16,6 +16,12 @@
             "requiresMention": true,
             "cheeksPhrases": ["pellizca las mejillas de","le aprienta los cachetes a","masajea las mejillas de","le gusta apretar las mejillas de"]
         },
+        "chocolate" : {
+            "isDuo": true,
+            "requiresMentio": false,
+            "chocolatePhrases": ["¡está dando chocolates al azar!", "está obsequiando chocolates", "tira chocolates al aire, ¡atrapen!"],
+            "chocolateDuoPhrases": ["le comparte chocolate a", "le obsequia un chocolate a", "da con amor chocolate a", "te está dando chocolate"]
+        },
         "claps" : {
             "isDuo": true,
             "requiresMention": false,
