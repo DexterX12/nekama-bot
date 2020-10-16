@@ -1,1 +1,1 @@
-worker: node --icu-data-dir=./node_modules/full-icu app.js
+worker: node app.js
