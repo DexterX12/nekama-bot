@@ -1,0 +1,14 @@
+{
+	"prefix": "/",
+	"testPrefix": "a!",
+	"cooldown": 5,
+	"token": "",
+	"testToken": "",
+	"snaoKey": "",
+	"guildId": "",
+	"clientIdTest": "",
+	"clientIdGlobal": "",
+	"currentVersion": "3.0.6",
+	"inviteLink": "",
+	"voteLink": ""
+}

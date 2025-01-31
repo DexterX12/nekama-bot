@@ -1,0 +1,20 @@
+{
+    "coinFlipOptions": [
+        {"Cara": "https://s7.gifyu.com/images/NekamaCoinflip_-_Cara.png"},
+        {"Cruz": "https://s7.gifyu.com/images/NekamaCoinflip_-_Cruz.png"}
+    ],
+    "rollOptions": [
+        {"¡Un uno!": "https://s7.gifyu.com/images/Roll_1.png"},
+        {"¡Un dos!":"https://s7.gifyu.com/images/Roll_2.png"},
+        {"¡Un tres!":"https://s7.gifyu.com/images/Roll_3.png"},
+        {"¡Un cuatro!":"https://s7.gifyu.com/images/Roll_4.png"},
+        {"¡Un cinco!":"https://s7.gifyu.com/images/Roll_5.png"},
+        {"¡Un seis!":"https://s7.gifyu.com/images/Roll_6.png"}
+    ],
+    "rpsImageOptions": {
+        "piedra": ["https://s7.gifyu.com/images/tenor1741f87568259dfe.gif", "https://s7.gifyu.com/images/4bf6948020650d46b5453536474a832b.gif", "https://s7.gifyu.com/images/58f90ba52b44d8fd200c85ac6902084c.gif"],
+        "papel": ["https://s7.gifyu.com/images/GleamingDisastrousDogwoodclubgall-size_restricted.gif", "https://s7.gifyu.com/images/UntriedMarriedLamprey-size_restricted.gif", "https://s7.gifyu.com/images/ub6PULh.gif"],
+        "tijera": ["https://s7.gifyu.com/images/tenordbbbeb59c199aab2.gif", "https://s7.gifyu.com/images/AnyGrayGrassspider-size_restricted.gif", "https://s7.gifyu.com/images/tenor5cf95f09bb88637a.gif"]
+    },
+    "rpsBotOptions": ["piedra", "papel", "tijera"]
+}

@@ -1,0 +1,214 @@
+{
+    "interactions": {
+        "baka" : {
+            "isDuo": false,
+            "requiresMention": true,
+            "bakaPhrases": ["le dice idiota a ","le hacer saber que tan idiota es","le dice 'Baka baka!' a"]
+        },
+        "bite" : {
+            "isDuo": true,
+            "requiresMention": false,
+            "bitePhrases": ["ñam ñam, sabes muy dulce","morderte sabe muy bien","eres delicia, ñam ñam"],
+            "biteDuoPhrases": ["le gusta morder a","está mordiendo a","le encanta el sabor de","se quiere comer a"]
+        },
+        "cheeks" : {
+            "isDuo": false,
+            "requiresMention": true,
+            "cheeksPhrases": ["pellizca las mejillas de","le aprienta los cachetes a","masajea las mejillas de","le gusta apretar las mejillas de"]
+        },
+        "chocolate" : {
+            "isDuo": true,
+            "requiresMentio": false,
+            "chocolatePhrases": ["¡está dando chocolates al azar!", "está obsequiando chocolates", "tira chocolates al aire, ¡atrapen!"],
+            "chocolateDuoPhrases": ["le comparte chocolate a", "le obsequia un chocolate a", "da con amor chocolate a", "te está dando chocolate"]
+        },
+        "claps" : {
+            "isDuo": true,
+            "requiresMention": false,
+            "clapsPhrases": ["está aplaudiendo","hace sonar las palmas","aplaude con alegría","aplaude emocionadamente"],
+            "clapsDuoPhrases": ["le aplaude a","te está felicitando","te está aplaudiendo","te regala unos aplausos"]
+        },
+        "cook" : {
+            "isDuo": true,
+            "requiresMention": false,
+            "cookPhrases": ["cocina algo muy delicioso","está cocinando, huele muy bien","está haciendo la comida","es todo un mastercheff"],
+            "cookDuoPhrases": ["le cocina algo rico a","le gusta cocinar para","prepara algo delicioso para","está cocinando para"]
+        },
+        "cuddle" : {
+            "isDuo": true,
+            "requiresMention": false,
+            "cuddlePhrases": ["le gusta estar conmigo","se acurruca junto a mi","disfruta estar a mi lado","se siente a gusto conmigo"],
+            "cuddleDuoPhrases": ["se acurruca junto a","le gustar estar con","disfruta estar al lado de","se apega a"]
+        },
+        "dance" : {
+            "isDuo": true,
+            "requiresMention" : false,
+            "dancePhrases": ["empezó a bailar con gusto","le da movimiento a sus caderas","mueve su cuerpo con ritmo","se lanza a la pista a bailar"],
+            "danceDuoPhrases": ["empieza a bailar con","baila con gusto junto a","mueve las caderas con","baila en la pista con"]
+        },
+        "feed" : {
+            "isDuo": true,
+            "requiresMention": false,
+            "feedPhrases": ["¡esto está rico!, di 'aaah'","recibe cuidado alimentario de mi","está comiendo","se alimenta apropiadamente"],
+            "feedDuoPhrases": ["alimenta a","le da comida a","cuida alimentando a","le da de comer a"]
+        },
+        "gaming" : {
+            "isDuo": true,
+            "requiresMention" : false,
+            "gamingPhrases": ["está matando el vicio...","está jugando un poco","le encanta los videojuegos","hace multikills, ¡que pro!","es malo usar hacks, juega legal...","no puede poner pausa, que vicio"],
+            "gamingDuoPhrases": ["está jugando con","está en una partida con","juega online con su amigo","mata al Final Boss junto a","hace team con","le hace sopport a"]
+        },
+        "glare" : {
+            "isDuo": true,
+            "requiresMention": false,
+            "glarePhrases": ["frunce el seño","arruga la cara","demuestra desagrado"],
+            "glareDuoPhrases": ["le frunce el ceño a","le arruga la cara a","muestra desagrado ante","está disgustado con"]
+        },
+        "handholding" : {
+            "isDuo": false,
+            "requiresMention": true,
+            "handholdingPhrases": ["toma de la mano a","le agarra la mano a","sostiene la mano de","le toma amorosamente la manoa "]
+        },
+        "heal" : {
+            "isDuo": false,
+            "requiresMention": true,
+            "healPhrases": ["está curando a","le da primero auxilios a","usa magia de curación en"]
+        },
+        "hi" : {
+            "isDuo": true,
+            "requiresMention": false,
+            "hiPhrases": ["está saludando, digan hola","está saludando a todos","está dando un gran saludo","emite un bello saludo"],
+            "hiDuoPhrases": ["te está saludando","está saludando a","te manda saluditos","te saluda cálidamente"]
+        },
+        "highfive" : {
+            "isDuo": true,
+            "requiresMention": false,
+            "highfivePhrases": ["choca esos 5!","dame los 5!","así se hace, yeah!"],
+            "highfiveDuoPhrases": ["choca los 5 a","le da los 5 a","comparten la victoria, yeah!"]
+        },
+        "hug" : {
+            "isDuo": false,
+            "requiresMention": true,
+            "hugPhrases": ["le da amor con un abrazo a","le da un fuerte abrazo a","abraza cariñosamente a","le da un abrazo de oso a"]
+        },
+        "kickbutt" : {
+            "isDuo": false,
+            "requiresMention": true,
+            "kickbuttPhrases": ["le patea el trasero a","le da una fuerte patada a","mandó a volar de una patada a","le deja las pompas rojas a"]
+        },
+        "kill" : {
+            "isDuo": false,
+            "requiresMention": true,
+            "killPhrases": ["asesinó cruelmente a","asesina a sangre fía a","le da muerta a","sin piedad, pone fin a la vida de"]
+        },
+        "kiss" : {
+            "isDuo": false,
+            "requiresMention": true,
+            "kissPhrases": ["besa apasionadamente a","le da un beso amoroso a","le da amor besando a","le da un gran beso a"]
+        },
+        "laugh" : {
+            "isDuo": true,
+            "requiresMention": false,
+            "laughPhrases": ["empieza a reirse fuerte","se muere de la risa","no aguanta y empieza a reirse","hace sonar sus carcajadas"],
+            "laughDuoPhrases": ["fuertemente empieza a reirse de","se rié burladamente de","le da gracia las tonterias de","no aguanta y se ríe de"]
+        },
+        "lick" : {
+            "isDuo": false,
+            "requiresMention": true,
+            "lickPhrases": ["está lamiendo a","lame suavemente a","le gusta lamer a","lame la dulzura de","lame lascivamente a"]
+        },
+        "pat" : {
+            "isDuo": false,
+            "requiresMention": true,
+            "patPhrases": ["le da caricias a","está acariciando a","le da cariños a","acaricia amorosamente a","cariñosamente le da caricias a"]
+        },
+        "poke" : {
+            "isDuo": false,
+            "requiresMention": true,
+            "pokePhrases": ["busca la atención de","está fastidiando a","le un toque sin razón a","molesta un poco a"]
+        },
+        "punch" : {
+            "isDuo": false,
+            "requiresMention": true,
+            "punchPhrases": ["le da unos fuertes golpes a","se agarra a golpes con","le da una paliza a","le da su merecido a","deja K.O! a"]
+        },
+        "scared" : {
+            "isDuo": true,
+            "requiresMention": false,
+            "scaredPhrases": ["está demasiado asustado","tiene mucho miedo","le teme a algo","tiene el rabo entre las piernas"],
+            "scaredDuoPhrases": ["le tiene miedo a","es aterrorizado por","sufre del miedo por","no aguanta el sufrimiento de ser asustado por"]
+        },
+        "shoot" : {
+            "isDuo": true,
+            "requiresMention": false,
+            "shootPhrases" : ["está disparando","está soltando plomazos","pone a prueba las balas"],
+            "shootDuoPhrases": ["le da un disparo a","le suelta unos plomazos a","le está disparando a"]
+        },
+        "slap" : {
+            "isDuo": false,
+            "requiresMention": true,
+            "slapPhrases": ["le dió una gran cachetada", "le marcó con su mano la cara a", "le dejó el cachete rojo a", "Le volteó la cara a", "le dio una fuerte cachetada a"]
+        },
+        "sleep" : {
+            "isDuo": true,
+            "requiresMention": false,
+            "sleepPhrases": ["le dio sueño y se durmió", "se ha ido a dormir", "tiene el sueño pesado y no aguanta, a dormir", "está soñando con sus waifus"],
+            "sleepDuoPhrases": ["se fue a dormir con", "duerme junto a","está soñando con", "está descansando justo a"]
+        },
+        "spank" : {
+            "isDuo": false,
+            "requiresMention": true,
+            "spankPhrases": ["le dio una nalgada a","le deja las pompis rojas a","castiga con nalgada a"]
+        },
+        "splash" : {
+            "isDuo": false,
+            "requiresMention": true,
+            "splashPhrases": ["le dio un chapuzón al agua a","ha mojado a","le echó agua a","le dio una 'refrescada' a"]
+        },
+        "spray" : {
+            "isDuo": true,
+            "requiresMention": false,
+            "sprayPhrases": ["está desinfectando el ambiente","está matando las plagas","descontamina este lugar"],
+            "sprayDuoPhrases": ["le rocía algo a","está desinfectando a","le limpia la cara a"]
+        },
+        "stare" : {
+            "isDuo": false,
+            "requiresMention": true,
+            "starePhrases": ["clava su mirada en","se queda mirando a","no deja de mirar a","tiene sus ojos fijados en"]
+        },
+        "tickle" : {
+            "isDuo": false,
+            "requiresMention": true,
+            "ticklePhrases": ["le hace cosquillas a","hace sufrir con cosquillas a","le hace muchas cosquillas a"]
+        },
+        "tsundere" : {
+            "isDuo": true,
+            "requiresMention": false,
+            "tsunderePhrases": ["ahora es Tsundere, mejor no molestar...","Tsun Tsun Dere Dere!"],
+            "tsundereDuoPhrases": ["es Tsundere con","le es Tsundere a","se comporta Tsunderemente a"]
+        }
+    },
+
+    "reactions":{
+        "angry" : {
+            "isDuo": false,
+            "requiresMention": false,
+            "angryPhrases": ["está ardiendo de la furia","está gruñendo del enojo","tiene mucha molestia, ¡no tocar!","se ha enfadado"]
+        },
+        "cry" : {
+            "isDuo": false,
+            "requiresMention": false,
+            "cryPhrases": ["empieza a llorar desconsoladamente","deja caer lagrimas de tristeza","se quebranta en llantos","suelta su tristeza llorando"]
+        },
+        "happy" : {
+            "isDuo": false,
+            "requiresMention": false,
+            "happyPhrases": ["está muy entusiasta","está de maravilla","está expresando su alegría","está felíz como una lombriz"]
+        },
+        "nope" : {
+            "isDuo": false,
+            "requiresMention": false,
+            "nopePhrases": ["ha dicho que no","se niega rotundamente","su repuesta es negativa","dice que no es no"]
+        }
+    }
+}
